@@ -1,0 +1,28 @@
+# Ignore virtual environment
+venv/
+myenv/
+
+# Ignore large data files
+*.csv
+*.pkl
+
+# Ignore development files
+*.log
+.git/
+
+# Ignore specific directories
+node_modules/
+__pycache__/
+
+# Ignore specific large files
+steel_defects_augmented.h5
+dataset.zip
+
+# Ignore TensorFlow cache
+.tf_cache/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore any file or directory starting with '.'
+.*
